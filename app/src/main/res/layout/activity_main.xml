@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SoundBoardFabrizio">
 
     <TextView
         android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.75" />
+        app:layout_constraintGuide_percent="0.76" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
@@ -71,7 +71,7 @@
         app:layout_constraintGuide_percent="0.9" />
 
     <Button
-        android:id="@+id/btn_notme"
+        android:id="@+id/btn_cenna"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="79dp"
@@ -88,8 +88,8 @@
         android:layout_height="wrap_content"
         android:text="VerySad"
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
-        app:layout_constraintTop_toTopOf="@+id/guideline7"
-        tools:layout_editor_absoluteX="1dp" />
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
     <Button
         android:id="@+id/btn_stomp"
@@ -102,12 +102,12 @@
         app:layout_constraintTop_toTopOf="@+id/guideline5" />
 
     <Button
-        android:id="@+id/btn_bawshh"
+        android:id="@+id/btn_bongo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="8dp"
-        android:text="bawshh"
+        android:text="Bongo"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="@+id/guideline5" />
 
@@ -119,9 +119,9 @@
         android:layout_marginBottom="31dp"
         android:text="cat"
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintEnd_toStartOf="@+id/guideline10"
         app:layout_constraintTop_toTopOf="@+id/guideline7"
-        app:layout_constraintVertical_bias="0.538"
-        tools:layout_editor_absoluteX="109dp" />
+        app:layout_constraintVertical_bias="0.538" />
 
     <Button
         android:id="@+id/btn_girlvoice"
@@ -131,6 +131,7 @@
         android:layout_marginEnd="4dp"
         android:text="GirlVoice"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline10"
         app:layout_constraintTop_toTopOf="@+id/guideline5" />
 
     <Button
@@ -141,9 +142,10 @@
         android:layout_marginBottom="31dp"
         android:text="Dog"
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline10"
         app:layout_constraintTop_toTopOf="@+id/guideline7"
-        app:layout_constraintVertical_bias="0.538"
-        tools:layout_editor_absoluteX="207dp" />
+        app:layout_constraintVertical_bias="0.538" />
 
     <Button
         android:id="@+id/bnt_blueman"
@@ -166,9 +168,10 @@
         android:layout_marginBottom="31dp"
         android:text="claps"
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="@+id/guideline7"
-        app:layout_constraintVertical_bias="0.538"
-        tools:layout_editor_absoluteX="319dp" />
+        app:layout_constraintVertical_bias="0.538" />
 
     <Button
         android:id="@+id/bnt_cannot"
@@ -197,17 +200,14 @@
         app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
     <Button
-        android:id="@+id/btn_atuobru"
+        android:id="@+id/btn_rollout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginBottom="81dp"
-        android:text="Atuobru"
+        android:layout_marginTop="86dp"
+        android:layout_marginBottom="85dp"
+        android:text="Rollout"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
